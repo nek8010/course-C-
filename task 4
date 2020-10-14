@@ -1,0 +1,3 @@
+int valueGold;
+Console.Writeline("Введите кол-во золота");
+valueGold = Convert.ToInt32(Console.Readline());
