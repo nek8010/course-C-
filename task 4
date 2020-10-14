@@ -1,3 +1,11 @@
 int valueGold;
-Console.Writeline("Введите кол-во золота");
+Console.Write("Введите кол-во золота ");
 valueGold = Convert.ToInt32(Console.Readline());
+int priceCrystel=50;
+int number_buy_crystel;
+Console.Write("Цена кристаллов равна "+priceCrystel+", Сколько кристалов вы хотите купить ");
+number_buy_crystel=Convert.ToInt32(Console.Readline());
+int valueCrystel;
+valueGold=valueGold % priceCrystel;
+valueCrystel=valueGold / priceCrystel;
+Console.Write("Вам хватило золота на "+valueCrystel+" кристаллов, оставшееся золото после покупки равно "+ valueGold);
