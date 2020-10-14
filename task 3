@@ -1,0 +1,6 @@
+int numberPicture =52;
+int Picture_in_row =3;
+int numberRow,number_picture_out_row;
+numberRow=numberPicture/Picture_in_row;
+number_picture_out_row=numberPicture%Picture_in_row;
+Console.WriteLine("Количество полученных рядов равно "+numberRow + ", количество картинок не вошедших в ряд равно "+number_picture_out_row);
