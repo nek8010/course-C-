@@ -1,0 +1,10 @@
+bool youHome=true;
+int quntityHumans=10;
+string nameProject = "C#Light";
+char firstCharacter='C';
+float valueGold = 10.5f;
+double valueHealth = 100.9;
+byte numberZero = 3;
+uint numberCity = 10;
+short numberShips=50;
+ushort numbercountry=200;
